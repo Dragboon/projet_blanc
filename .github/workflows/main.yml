@@ -25,6 +25,7 @@ jobs:
         run: scripts/mktest.sh
   
   second_job:
+    needs: build
     if: github.env == 0
     runs-on: ubuntu-latest
 

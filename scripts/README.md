@@ -23,3 +23,9 @@ Ce répertoire contient les scripts Bash utilisés pour automatiser diverses tâ
   ```bash
   scripts/mkdoc.sh
   ```
+
+  ## Les permissions d'exécuter doivent être données pour lancer les scripts
+  ```bash
+  git update-index --chmod=+x scripts/mkdoc.sh
+  git update-index --chmod=+x scripts/mktest.sh
+  ```
