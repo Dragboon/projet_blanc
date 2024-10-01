@@ -20,3 +20,4 @@
  
  * Les caractères génériques ne peuvent représenter qu'une seule lettre.
  * Le dictionnaire est chargé en mémoire, ce qui peut limiter la taille des dictionnaires utilisables.
+
